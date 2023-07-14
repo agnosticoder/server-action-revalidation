@@ -28,5 +28,5 @@ export const logoutAction = async () => {
         path: '/',
     });
     revalidatePath('/');
-    redirect('/page1');
+    redirect('/');
 }

@@ -11,8 +11,8 @@ const Navbar = async () => {
             Navbar
             <div className="px-5 h-20 bg-green-300 border-2 border-green-400 flex items-center justify-between">
                 <div className="flex gap-4">
-                    {user && <ProtectedLinks />}
                     <UnProtectedLinks />
+                    {user && <ProtectedLinks />}
                 </div>
                 <NavButtons />
             </div>
